@@ -1,0 +1,36 @@
+.list-container{
+
+    background-color: #596758;
+    padding: 30px;
+    color: #fff;
+
+    ul{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+
+        li:not(li:last-child){
+            border-bottom: 1px solid #758274;
+        }
+
+        li{
+
+            padding: 10px 0;            
+
+            a{
+                display: block;
+                text-decoration: none;
+                color: #fff;
+                font-size: .9rem;
+                right: 0;
+                transition: right .2s;
+
+                &:hover{
+                    position: relative;
+                    right: 2px;
+                }
+            }
+        }
+    }
+    
+}

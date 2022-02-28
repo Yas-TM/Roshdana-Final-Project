@@ -1,0 +1,25 @@
+.about-section{
+	min-height: 100vh;
+	background-color: #596758;
+    color: #fff;
+
+    .about-container{
+        padding: 150px 0 100px;
+
+        .about-content{
+            
+            p{
+                margin-top: 10px;
+                line-height: 2;
+            }
+
+            a{
+                min-width: 150px;
+            }
+            a:hover{
+                background-color: #8aad3d;
+                color:#fff;
+            }
+        }
+    }
+}

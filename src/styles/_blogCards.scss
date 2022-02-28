@@ -1,0 +1,35 @@
+.blog-card{
+
+    a{
+        color: #000;
+        text-decoration: none;
+    }
+
+    .blog-post{
+        color: #000;
+        padding: 20px 20px 20px 50px;
+
+        .blog-clock{
+            color: #f41157;
+            font-size: 1.2rem;
+        }
+
+        .blog-title{
+            font-weight: bold;
+            line-height: 1.5rem;
+            color: #333;
+        }
+    }
+
+    .img-zoom{
+        overflow: hidden;
+
+        .card-img-top{
+            transition: transform .5s ease;
+        }        
+    }
+
+    &:hover .img-zoom .card-img-top{
+        transform: scale(1.1);
+    }
+}

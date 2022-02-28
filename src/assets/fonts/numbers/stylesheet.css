@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Yekan Numbers';
+    src: url('YekanNumbers-Regular.eot');
+    src: url('YekanNumbers-Regular.eot?#iefix') format('embedded-opentype'),
+        url('YekanNumbers-Regular.woff2') format('woff2'),
+        url('YekanNumbers-Regular.woff') format('woff'),
+        url('YekanNumbers-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

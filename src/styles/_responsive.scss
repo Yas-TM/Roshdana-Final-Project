@@ -1,0 +1,57 @@
+@media screen and (max-width:767px) {
+    .menu-container .navbar-nav{
+        background-color: rgb(255, 255, 255);
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+
+    .menu-container form{
+        position: absolute !important;
+        top: 10px;
+        left: 70px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+
+    .blog-section{
+        position: relative;
+        padding: 50px 0 80px;
+
+        .inner-blog-section{
+            position: initial;
+
+            .btn-show-more{
+                position: absolute;
+                top: initial;
+                bottom: 15px;
+                left: 50%;
+                transform: translateX(-50%);
+                color: #c39a3e;
+                font-size: 15px;
+                padding: 12px 25px;
+                width: 180px;
+                display: inline-block;
+            }
+        }       
+    }
+
+    .single-post-container{
+        .single-post1{
+            max-width: calc(100% - 10px) !important;
+        }
+    }
+
+    
+
+
+    @keyframes slideOutUp {
+        25%{
+            visibility: hidden;
+            transform: translateX(-40%);
+        }
+        50%{
+            transform: translateX(-60%);
+        }
+    }
+}

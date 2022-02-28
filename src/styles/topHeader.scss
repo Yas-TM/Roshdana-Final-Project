@@ -1,0 +1,21 @@
+.top-header-container{
+    background-color: #174b44;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+
+    .login-btn{
+        background-color: rgba(255, 255, 255, 0.15);
+    }
+
+    a{
+        color: #fff;
+        &:hover{
+            position: relative;
+            top: 1px;
+        }
+    }
+}

@@ -1,0 +1,182 @@
+.menu-container{
+    background-image: url('../images/teamwork2.jpg');
+    background-size: cover;
+    margin-top: 55px;
+
+    .nav-link a{
+
+        padding: 0;
+        &:hover{
+            color: initial;
+        }
+    }
+
+    .nav-item.dropdown{
+        margin: 0;
+    }
+
+    .nav-item, .nav-link{
+        margin: 0 5px;
+        font-size: .9rem;
+        font-weight: bold;
+    }
+
+    .dropdown-toggle.nav-link{
+        color: #333;
+
+        &:hover{
+            color: initial;
+        }
+    }
+
+    .dropdown-toggle:hover::after{
+        position: relative;
+        top: 1px;
+    }
+
+    .dropdown-menu{
+        border: none;
+        text-align: right;
+        right: -25%;
+        left: initial;
+        background-color: #d2ffe8;
+        z-index: 0;
+
+        .dropdown-item{
+
+            &:hover, &:active{
+                background-color: #b6ffd9;
+                font-weight: bold;
+                color: initial;
+            }
+
+            a{
+                display: block;
+
+                &:hover{
+                    color: initial;
+                }     
+            }
+            
+        }
+    }
+
+    form{
+        position: relative;
+        transition: all 1s;
+        width: 50px;
+        height: 30px;
+        cursor: pointer;
+    
+        input{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 42.5px;
+            line-height: 30px;
+            outline: 0;
+            border: 0;
+            display: none;
+            font-size: 1em;
+            border-radius: 20px;
+            padding: 0 20px 0 40px;
+            background-color: #003333;
+
+            &::placeholder{
+                color: #fff;
+            }
+        }
+
+        svg{
+            padding: 10px 0;
+            width: 40px;
+            height: 40px;
+            position: absolute;
+            top: 2px;
+            left: 0;
+            font-size: 1em;
+            transition: all 1s;
+        }
+
+        &:focus-within{
+            width: 200px;
+            max-width: 300px;
+
+            input{
+                display: block;
+                background-color: #003333;
+                color: #fff;
+            }
+
+            svg{
+                fill: #fff;
+            }
+        }
+    }
+
+    .dropdown-toggle::after{
+        border: solid black;
+        border-width: 0 2px 2px 0;
+        display: inline-block;
+        margin: -3px 5px;
+        padding: 2px;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+    }
+
+    .btn-start{
+        padding: 15px 38px;
+        color: #c6b32d;
+        font-weight: bold;
+        margin-bottom: 30px;
+
+        &:focus{
+            position: relative;
+            top: 2px;
+        }
+    }
+}
+
+.header-content-section{
+
+    .ea-img{
+        width: 130px;
+    }
+    
+    .header-small{
+        background-color: #fefef9;
+        color: #c6b32d;
+        display: inline-block;
+        margin-top: 20px;
+        position: relative;
+
+        &::before{
+            content: "";
+            margin: 0 10px;
+            border-bottom: 3px solid #c6b32d;
+            width: 40px;
+            display: inline-block;
+        }        
+    }
+
+    .header-heading{
+        font-weight: bold;
+        color: #000;
+        font-size: 50px;
+        margin: 20px 0 35px;
+        word-spacing: -15px;
+    }
+    
+    .header-paragraph{
+        font-size: larger;
+        color: #19161b;
+        margin-bottom: 20px;
+        max-width: 550px;
+    }
+    
+    .header-span{
+        color: #002cd2;
+    }
+    
+}

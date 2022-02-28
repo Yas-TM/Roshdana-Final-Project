@@ -1,0 +1,39 @@
+.news-container{
+    padding: 20px 10px;
+    border: 1px solid #cdcdcd;
+    margin-top: 80px;
+    position: relative;
+
+    &::before{
+        content: "مطالب مرتبط";
+        font-size: 20px;
+        color: #fff;
+        background-color: #596758;
+        width: 150px;
+        height: 40px;
+        position: absolute;
+        top: -40px;
+        right: -1px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .news-content{
+        font-size: .8rem;
+    }
+    img{
+        width: 100%;
+        height: auto;
+        margin-bottom: 15px;
+    }
+
+    .rect{
+        border-right: 10px solid #c77000;
+        padding-right: 10px;
+        a:hover{
+            color: #c77000;
+            text-decoration: underline;
+        }
+    }
+}

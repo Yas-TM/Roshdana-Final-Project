@@ -1,0 +1,81 @@
+@use 'stars';
+@use 'sections';
+@use 'responsive';
+@use 'blogCards';
+@use 'course';
+@use 'horizCard';
+@use 'littleComponents';
+@use 'slider';
+@use 'list';
+@use 'news';
+@use 'mainHeader';
+@use 'topHeader';
+@use 'notfound';
+@use 'about-us';
+
+@font-face {
+    font-family: 'IRANYekan';
+    src: url('../assets/fonts/main/IRANYekan.eot');
+    src: url('../assets/fonts/main/IRANYekan.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/main/IRANYekan.woff2') format('woff2'),
+        url('../assets/fonts/main/IRANYekan.woff') format('woff'),
+        url('../assets/fonts/main/IRANYekan.ttf') format('truetype');
+        
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+@font-face {
+  font-family: 'Yekan Numbers';
+  src: url('../assets/fonts/numbers/YekanNumbers-Regular.eot');
+  src: url('../assets/fonts/numbers/YekanNumbers-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../assets/fonts/numbers/YekanNumbers-Regular.woff2') format('woff2'),
+      url('../assets/fonts/numbers/YekanNumbers-Regular.woff') format('woff'),
+      url('../assets/fonts/numbers/YekanNumbers-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+} 
+
+body{
+  font-family: 'Yekan Numbers', 'IRANYekan';
+}
+
+.underline::after {
+  content: "";
+  display: block;
+  width: 80px;
+  padding-top: 15px;
+  border-bottom: 4px solid #fc3;
+}
+
+#scroll-top{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #179154;
+  color: #fff;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  position: fixed;
+  bottom: 60px;
+  right: 20px;
+  opacity: 0;
+}
+
+#scroll-top.active{
+  opacity: 1;
+}
+
+a{
+  text-decoration: none;
+  color: #333;
+}
+
+.myform{
+  a:hover{
+      text-decoration: underline;
+  }
+}

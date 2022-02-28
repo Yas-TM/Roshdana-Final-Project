@@ -1,0 +1,20 @@
+.horiz-card{
+
+    .body-text{
+        font-size: .8rem;
+        word-spacing:-3px;
+        line-height: 25px;
+    }
+    
+    img{
+        width: 80px;
+    }
+
+    .horiz-link{
+        color: #fff;
+        &:hover{
+            position: relative;
+            right: 2px;
+        }
+    }
+}
